@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shyammalani.demo.restapi.IntegrationTests" time="9.087" tests="31" errors="0" skipped="23" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Z-Drive\study\git\myServiceJava"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHYAM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Z-Drive\soft\apache-maven-3.1.1-bin\apache-maven-3.1.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;&quot;C:\Program Files\Java\jdk1.8.0_45\bin&quot;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PC Connectivity Solution\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\MongoDB\Server\3.0\bin;C:\Z-Drive\soft\apache-maven-3.1.1-bin\apache-maven-3.1.1\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\sbt\\bin;C:\Z-Drive\Jars\activator-1.3.10-minimal\bin;C:\Z-Drive\soft\apache-maven-3.1.1-bin\apache-maven-3.1.1\bin;C:\Program Files (x86)\scala\bin;C:\Users\SHYAM\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\SHYAM"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="SHYAM"/>
+    <property name="java.class.path" value="C:\Z-Drive\soft\apache-maven-3.1.1-bin\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Z-Drive\soft\apache-maven-3.1.1-bin\apache-maven-3.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I am a AGENT" classname="Scenario: Customer cannot create user" time="0">
+    <skipped/>
+    <system-out><![CDATA[Feature: Security check
+22:35:01.027 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper]
+22:35:01.067 [main] DEBUG o.s.b.t.WebAppIntegrationTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@72cc7e6f declaringClass = 'com.shyammalani.demo.restapi.UserSteps', classes = '{class com.shyammalani.demo.restapi.Application}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+22:35:01.067 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.shyammalani.demo.restapi.UserSteps]
+22:35:01.079 [main] DEBUG o.s.test.util.ReflectionTestUtils - Setting field [propertySourceProperties] of type [null] on target [[WebMergedContextConfiguration@268f106e testClass = UserSteps, locations = '{}', classes = '{class com.shyammalani.demo.restapi.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] to value [[Ljava.lang.String;@6e9a5ed8]
+22:35:01.079 [main] DEBUG o.s.b.t.WebAppIntegrationTestContextBootstrapper - @TestExecutionListeners is not present for class [com.shyammalani.demo.restapi.UserSteps]: using defaults.
+22:35:01.089 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+22:35:01.109 [main] INFO  o.s.b.t.WebAppIntegrationTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@480d3575, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f1da57d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@194fad1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@26abb146, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@72c8e7b]
+22:35:01.239 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+22:35:01.249 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+22:35:01.249 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+22:35:01.249 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.6.RELEASE)
+
+2016-12-24 22:35:01.729  INFO 5724 --- [           main] com.shyammalani.demo.restapi.UserSteps   : Starting UserSteps on SHYAM-HP with PID 5724 (C:\Z-Drive\study\git\myServiceJava\target\test-classes started by SHYAM in C:\Z-Drive\study\git\myServiceJava)
+2016-12-24 22:35:01.789  INFO 5724 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25aca718: startup date [Sat Dec 24 22:35:01 IST 2016]; root of context hierarchy
+2016-12-24 22:35:02.981  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-12-24 22:35:04.793  INFO 5724 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 5555 (http)
+2016-12-24 22:35:05.353  INFO 5724 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-12-24 22:35:05.363  INFO 5724 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.26
+2016-12-24 22:35:05.753  INFO 5724 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-12-24 22:35:05.753  INFO 5724 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3974 ms
+2016-12-24 22:35:07.484  INFO 5724 --- [ost-startStop-1] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4884e83d, org.springframework.security.web.context.SecurityContextPersistenceFilter@241b6643, org.springframework.security.web.header.HeaderWriterFilter@4a29403a, org.springframework.security.web.authentication.logout.LogoutFilter@3df12e38, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2d25fa5f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e571952, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3768b266, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f1976c1, org.springframework.security.web.session.SessionManagementFilter@314f3a7a, org.springframework.security.web.access.ExceptionTranslationFilter@4c5e3405, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@556e5239]
+2016-12-24 22:35:07.574  INFO 5724 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-24 22:35:07.584  INFO 5724 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-24 22:35:07.584  INFO 5724 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-24 22:35:07.584  INFO 5724 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2016-12-24 22:35:08.058  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users],methods=[POST],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<com.shyammalani.demo.restapi.model.User> com.shyammalani.demo.restapi.resource.UserController.createUser(com.shyammalani.demo.restapi.model.User)
+2016-12-24 22:35:08.058  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{email:.+}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.shyammalani.demo.restapi.model.User> com.shyammalani.demo.restapi.resource.UserController.getUser(java.lang.String)
+2016-12-24 22:35:08.058  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{email:.+}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.shyammalani.demo.restapi.model.User> com.shyammalani.demo.restapi.resource.UserController.deleteUser(java.lang.String)
+2016-12-24 22:35:08.058  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/{email:.+}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.shyammalani.demo.restapi.model.User> com.shyammalani.demo.restapi.resource.UserController.updateUser(java.lang.String,com.shyammalani.demo.restapi.model.User)
+2016-12-24 22:35:08.068  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.mangofactory.swagger.models.dto.ResourceListing> com.mangofactory.swagger.controllers.DefaultSwaggerController.getResourceListing(java.lang.String)
+2016-12-24 22:35:08.068  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.mangofactory.swagger.models.dto.ApiListing> com.mangofactory.swagger.controllers.DefaultSwaggerController.getApiListing(java.lang.String,java.lang.String)
+2016-12-24 22:35:08.068  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-24 22:35:08.068  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2016-12-24 22:35:08.730  INFO 5724 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25aca718: startup date [Sat Dec 24 22:35:01 IST 2016]; root of context hierarchy
+2016-12-24 22:35:08.940  INFO 5724 --- [           main] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: jar:file:/C:/Users/SHYAM/.m2/repository/org/ajar/swagger-spring-mvc-ui/0.1/swagger-spring-mvc-ui-0.1.jar!/META-INF/resources/index.html
+2016-12-24 22:35:09.010  INFO 5724 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-12-24 22:35:09.030  INFO 5724 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-24 22:35:09.030  INFO 5724 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-24 22:35:09.100  INFO 5724 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-24 22:35:09.190  INFO 5724 --- [           main] c.m.swagger.plugin.SwaggerPluginAdapter  : Context refreshed
+2016-12-24 22:35:09.190  INFO 5724 --- [           main] c.m.swagger.plugin.SwaggerPluginAdapter  : Found custom SwaggerSpringMvcPlugins
+2016-12-24 22:35:09.190  INFO 5724 --- [           main] c.m.swagger.plugin.SwaggerPluginAdapter  : initializing plugin bean customImplementation
+2016-12-24 22:35:09.230  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Scanning for api listing references
+2016-12-24 22:35:09.230  INFO 5724 --- [           main] s.c.ClassOrApiAnnotationResourceGrouping : Group for method createUser was users
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Request mapping: createUser belongs to groups: [[ResourceGroup{groupName='users', position=0}]] 
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Adding resource to group:ResourceGroup{groupName='users', position=0} with description:Endpoint for user management for handler method:createUser
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] s.c.ClassOrApiAnnotationResourceGrouping : Group for method getUser was users
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='users', position=0}]] 
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Adding resource to group:ResourceGroup{groupName='users', position=0} with description:Endpoint for user management for handler method:getUser
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] s.c.ClassOrApiAnnotationResourceGrouping : Group for method deleteUser was users
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Request mapping: deleteUser belongs to groups: [[ResourceGroup{groupName='users', position=0}]] 
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Adding resource to group:ResourceGroup{groupName='users', position=0} with description:Endpoint for user management for handler method:deleteUser
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] s.c.ClassOrApiAnnotationResourceGrouping : Group for method updateUser was users
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Request mapping: updateUser belongs to groups: [[ResourceGroup{groupName='users', position=0}]] 
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Adding resource to group:ResourceGroup{groupName='users', position=0} with description:Endpoint for user management for handler method:updateUser
+2016-12-24 22:35:09.240  INFO 5724 --- [           main] c.m.s.core.RequestMappingEvaluator       : RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2016-12-24 22:35:09.250  INFO 5724 --- [           main] c.m.s.core.RequestMappingEvaluator       : RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2016-12-24 22:35:09.250  INFO 5724 --- [           main] c.m.s.core.RequestMappingEvaluator       : RequestMappingInfo did not match any include patterns: | {[/error]}
+2016-12-24 22:35:09.250  INFO 5724 --- [           main] c.m.s.core.RequestMappingEvaluator       : RequestMappingInfo did not match any include patterns: | {[/error],produces=[text/html]}
+2016-12-24 22:35:09.270  INFO 5724 --- [           main] c.m.s.s.ApiListingReferenceScanner       : Created resource listing Path: /default/users Description: users Position: 0
+2016-12-24 22:35:09.692  INFO 5724 --- [           main] c.m.s.core.SwaggerApiResourceListing     : Added a resource listing with (1) api resources: 
+2016-12-24 22:35:09.702  INFO 5724 --- [           main] c.m.s.core.SwaggerApiResourceListing     :   Endpoint for user management at location: /api-docs/default/users
+2016-12-24 22:35:09.799  INFO 5724 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 5555 (http)
+2016-12-24 22:35:09.804  INFO 5724 --- [           main] com.shyammalani.demo.restapi.UserSteps   : Started UserSteps in 8.545 seconds (JVM running for 10.331)
+]]></system-out>
+  </testcase>
+  <testcase name="When I create a user" classname="Scenario: Customer cannot create user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get a FORBIDDEN response" classname="Scenario: Customer cannot create user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Customer cannot create user" classname="Scenario: Customer cannot create user" time="8.997"/>
+  <testcase name="Given I am a MANAGER" classname="Scenario: Manager can create user" time="0">
+    <skipped/>
+    <system-out><![CDATA[2016-12-24 22:35:09.834  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-24 22:35:09.834  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@429f7919, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4a2929a4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@cda6019, org.springframework.test.context.transaction.TransactionalTestExecutionListener@797c3c3b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4012d5bc]
+2016-12-24 22:35:09.834  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@4375b013] to [cucumber.runtime.java.spring.GlueCodeScope@1cf0cacc]
+
+  Scenario: Customer cannot create user &amp#27;[90m# security.feature:3&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI am a &amp#27;[0m&amp#27;[36m&amp#27;[1mAGENT&amp#27;[0m                  &amp#27;[90m# SecuritySteps.I_am_a__(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI create a user&amp#27;[0m                &amp#27;[90m# UserSteps.I_create_a_user()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a &amp#27;[0m&amp#27;[36m&amp#27;[1mFORBIDDEN&amp#27;[0m&amp#27;[36m response&amp#27;[0m     &amp#27;[90m# CommonSteps.I_get_a__response(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When I create a user" classname="Scenario: Manager can create user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get a CREATED response" classname="Scenario: Manager can create user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Manager can create user" classname="Scenario: Manager can create user" time="0.01"/>
+  <testcase name="Given I am a AGENT" classname="| AGENT | FORBIDDEN |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario: Manager can create user &amp#27;[90m# security.feature:8&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI am a &amp#27;[0m&amp#27;[36m&amp#27;[1mMANAGER&amp#27;[0m            &amp#27;[90m# SecuritySteps.I_am_a__(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI create a user&amp#27;[0m            &amp#27;[90m# UserSteps.I_create_a_user()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a &amp#27;[0m&amp#27;[36m&amp#27;[1mCREATED&amp#27;[0m&amp#27;[36m response&amp#27;[0m   &amp#27;[90m# CommonSteps.I_get_a__response(String)&amp#27;[0m
+
+  #  Alternative to the previous two scenario:
+  Scenario Outline: Create user access rights &amp#27;[90m# security.feature:14&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI am a <role>&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI create a user&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a <httpStatus> response&amp#27;[0m
+
+    Examples: 
+2016-12-24 22:35:09.854  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-24 22:35:09.854  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71c17a57, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@640ab13c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e0a864d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@440e3ce6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e67f5f2]
+2016-12-24 22:35:09.854  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@1cf0cacc] to [cucumber.runtime.java.spring.GlueCodeScope@fd53053]
+]]></system-out>
+  </testcase>
+  <testcase name="When I create a user" classname="| AGENT | FORBIDDEN |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get a FORBIDDEN response" classname="| AGENT | FORBIDDEN |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| AGENT | FORBIDDEN |" classname="| AGENT | FORBIDDEN |" time="0.01"/>
+  <testcase name="Given I am a MANAGER" classname="| MANAGER | CREATED |" time="0">
+    <skipped/>
+    <system-out><![CDATA[2016-12-24 22:35:09.874  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-24 22:35:09.874  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@8d8f754, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@d613308, org.springframework.test.context.support.DirtiesContextTestExecutionListener@25673087, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7b27e8f4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@348ad293]
+2016-12-24 22:35:09.874  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@fd53053] to [cucumber.runtime.java.spring.GlueCodeScope@30f74e79]
+
+  Scenario Outline: Create user access rights &amp#27;[90m# security.feature:21&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI am a &amp#27;[0m&amp#27;[36m&amp#27;[1mAGENT&amp#27;[0m                        &amp#27;[90m# SecuritySteps.I_am_a__(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI create a user&amp#27;[0m                      &amp#27;[90m# UserSteps.I_create_a_user()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a &amp#27;[0m&amp#27;[36m&amp#27;[1mFORBIDDEN&amp#27;[0m&amp#27;[36m response&amp#27;[0m           &amp#27;[90m# CommonSteps.I_get_a__response(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When I create a user" classname="| MANAGER | CREATED |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get a CREATED response" classname="| MANAGER | CREATED |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| MANAGER | CREATED |" classname="| MANAGER | CREATED |" time="0.02"/>
+  <testcase name="When I create a user" classname="Scenario: Create user" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Scenario Outline: Create user access rights &amp#27;[90m# security.feature:22&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI am a &amp#27;[0m&amp#27;[36m&amp#27;[1mMANAGER&amp#27;[0m                      &amp#27;[90m# SecuritySteps.I_am_a__(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI create a user&amp#27;[0m                      &amp#27;[90m# UserSteps.I_create_a_user()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a &amp#27;[0m&amp#27;[36m&amp#27;[1mCREATED&amp#27;[0m&amp#27;[36m response&amp#27;[0m             &amp#27;[90m# CommonSteps.I_get_a__response(String)&amp#27;[0m
+Feature: CRUD on users
+2016-12-24 22:35:09.894  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-24 22:35:09.894  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f1ef916, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1886991b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64aad809, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f03fba0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@17dd671f]
+2016-12-24 22:35:09.894  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@30f74e79] to [cucumber.runtime.java.spring.GlueCodeScope@3bbf6abe]
+]]></system-out>
+  </testcase>
+  <testcase name="Then I get a CREATED response" classname="Scenario: Create user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Create user" classname="Scenario: Create user" time="0.02"/>
+  <testcase name="Given there exists a user" classname="Scenario: Delete user" time="0">
+    <skipped/>
+    <system-out><![CDATA[2016-12-24 22:35:09.904  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-24 22:35:09.904  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2abe9173, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@235d29d6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1fdca564, org.springframework.test.context.transaction.TransactionalTestExecutionListener@43f9dd56, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1d12e953]
+2016-12-24 22:35:09.904  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@3bbf6abe] to [cucumber.runtime.java.spring.GlueCodeScope@57cb70be]
+
+  Scenario: Create user           &amp#27;[90m# user_crud.feature:3&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI create a user&amp#27;[0m          &amp#27;[90m# UserSteps.I_create_a_user()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a &amp#27;[0m&amp#27;[36m&amp#27;[1mCREATED&amp#27;[0m&amp#27;[36m response&amp#27;[0m &amp#27;[90m# CommonSteps.I_get_a__response(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When I delete the user" classname="Scenario: Delete user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get a OK response" classname="Scenario: Delete user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Delete user" classname="Scenario: Delete user" time="0.01"/>
+  <testcase name="Given there exists a user" classname="Scenario: Update user" time="0">
+    <skipped/>
+    <system-out><![CDATA[2016-12-24 22:35:09.914  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-24 22:35:09.914  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2687725a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5a75ec37, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2c05ff9d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33956d1a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2e1ddc90]
+2016-12-24 22:35:09.914  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@57cb70be] to [cucumber.runtime.java.spring.GlueCodeScope@5b7c8930]
+
+  Scenario: Delete user       &amp#27;[90m# user_crud.feature:7&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthere exists a user&amp#27;[0m &amp#27;[90m# UserSteps.there_exists_a_user()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI delete the user&amp#27;[0m    &amp#27;[90m# UserSteps.I_delete_the_user()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a &amp#27;[0m&amp#27;[36m&amp#27;[1mOK&amp#27;[0m&amp#27;[36m response&amp#27;[0m  &amp#27;[90m# CommonSteps.I_get_a__response(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When I update the users&apos;s address" classname="Scenario: Update user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get a OK response" classname="Scenario: Update user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Update user" classname="Scenario: Update user" time="0.01"/>
+  <testcase name="Given there exists a user" classname="Scenario: Update non existing user" time="0">
+    <skipped/>
+    <system-out><![CDATA[2016-12-24 22:35:09.934  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-12-24 22:35:09.934  INFO 5724 --- [           main] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@a4b5ce3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5b6e78, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4b4eced1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@71926a36, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@216e9ca3]
+2016-12-24 22:35:09.934  INFO 5724 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@5b7c8930] to [cucumber.runtime.java.spring.GlueCodeScope@75120e58]
+
+  Scenario: Update user               &amp#27;[90m# user_crud.feature:12&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthere exists a user&amp#27;[0m         &amp#27;[90m# UserSteps.there_exists_a_user()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI update the users's address&amp#27;[0m &amp#27;[90m# UserSteps.I_update_the_users_s_address()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI get a &amp#27;[0m&amp#27;[36m&amp#27;[1mOK&amp#27;[0m&amp#27;[36m response&amp#27;[0m          &amp#27;[90m# CommonSteps.I_get_a__response(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When I update the address of a non-existent user" classname="Scenario: Update non existing user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I get a NOT_FOUND response" classname="Scenario: Update non existing user" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Update non existing user" classname="Scenario: Update non existing user" time="0.01"/>
+</testsuite>
