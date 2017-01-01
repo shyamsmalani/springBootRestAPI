@@ -1,6 +1,0 @@
-logging.level:
-  com.jambit.les.tutorial.rest: DEBUG
-
-server:
-    port: 8181
-    contextPath: /testapi

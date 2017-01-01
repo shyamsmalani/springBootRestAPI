@@ -1,9 +1,0 @@
-com\shyammalani\demo\restapi\UserSteps.class
-com\shyammalani\demo\restapi\IntegrationTestConstants.class
-com\shyammalani\demo\restapi\CommonSteps.class
-com\shyammalani\demo\restapi\config\RestTemplateConfig$1.class
-com\shyammalani\demo\restapi\CucumberStepsDefinition.class
-com\shyammalani\demo\restapi\config\RestTemplateConfig.class
-com\shyammalani\demo\restapi\SecuritySteps.class
-com\shyammalani\demo\restapi\IntegrationTests.class
-com\shyammalani\demo\restapi\World.class
