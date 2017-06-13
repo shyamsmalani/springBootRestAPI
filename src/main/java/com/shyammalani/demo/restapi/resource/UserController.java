@@ -1,6 +1,6 @@
 package com.shyammalani.demo.restapi.resource;
 
-import com.google.common.collect.Maps;
+mport com.google.common.collect.Maps;
 import com.shyammalani.demo.restapi.model.User;
 import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
